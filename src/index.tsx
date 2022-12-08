@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import "antd/dist/reset.css";
 import App from './App';
+import { ConfigProvider } from "antd";
+import ptBR from "antd/lib/locale/pt_BR";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -9,7 +11,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <ConfigProvider locale={ptBR}>
+     <App />
+    </ConfigProvider>
   </React.StrictMode>
 );
 
