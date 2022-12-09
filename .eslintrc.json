@@ -6,6 +6,7 @@
     "jest": true
   },
   "extends": [
+    "plugin:react/recommended",
     "standard-with-typescript",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
@@ -21,7 +22,7 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
     "no-underscore-dangle": "off",
     "no-console": "off",
