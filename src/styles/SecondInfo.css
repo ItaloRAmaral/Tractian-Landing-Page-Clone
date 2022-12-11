@@ -1,0 +1,53 @@
+.second {
+  height: 70vh;
+  padding: 7vh 4vw;
+  text-align: center;
+}
+
+.second h1 {
+  font-size: 3vw;
+  font-weight: 600;
+  margin-bottom: 2vh;
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216/var(--tw-text-opacity));
+}
+
+.second h3 {
+  font-size: 1.8vw;
+  font-weight: 400;
+  margin-bottom: 4vh;
+  color: rgb(55,65,81);
+}
+
+.mySwiper {
+  height: 45vh;
+}
+
+.mySwiper h1 {
+  font-size: 2vw;
+  font-weight: 700;
+  color: rgb(30,64,175)
+}
+
+.mySwiper h3 {
+  font-size: 1.8vw;
+  font-weight: 400;
+  color: rgb(55,65,81);
+}
+
+.mySwiper img {
+  height: 5vh;
+  width: 5vw;
+}
+
+.teste {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 6vh 2.5vw;
+  text-align: initial;
+  border: 1px solid #dbdcdf;
+  border-radius: 1.4vw;
+  gap: 2vh;
+}
