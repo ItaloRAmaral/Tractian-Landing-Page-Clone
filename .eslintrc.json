@@ -51,7 +51,7 @@
     "max-lines-per-function": [
       "error",
       {
-        "max": 20,
+        "max": 250,
         "skipBlankLines": true,
         "skipComments": true
       }
@@ -63,7 +63,7 @@
         "ignoreComments": true
       }
     ],
-    "complexity": ["error", 5],
+    "complexity": ["error", 7],
     "import/no-extraneous-dependencies": ["off"],
     "lines-between-class-members": "off",
     "@typescript-eslint/lines-between-class-members": ["off"]
