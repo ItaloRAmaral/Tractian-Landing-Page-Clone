@@ -1,10 +1,16 @@
-import { Button } from "antd";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+// import "antd/dist/reset.css";
+import "./App.css"
 
-function App() {
+function App(): JSX.Element {
   return (
-    <div>
-      <Button type="primary">Button</Button>
-    </div>
+    <main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </main>
   );
 }
 
