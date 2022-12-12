@@ -4,6 +4,7 @@ import { Content } from "antd/es/layout/layout";
 import MyHeader from "../components/Header";
 import FirstInfo from "../components/FirstInfo";
 import SecondInfo from "../components/SecondInfo";
+import ThirdInfo from "../components/ThirdInfo";
 
 function HomePage(): JSX.Element {
   return (
@@ -12,6 +13,7 @@ function HomePage(): JSX.Element {
       <Content>
         <FirstInfo />
         <SecondInfo />
+        <ThirdInfo />
       </Content>
     </Layout>
   );
