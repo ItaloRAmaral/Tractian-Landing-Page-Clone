@@ -111,4 +111,4 @@
 
 ## 📱 Como funciona - How it works
 
-  <img src="./assets/Tractian_Landing_page.gif" />
+  <img src="./assets/Tractian_Landing_page.gif" width=80% text-align=center />
