@@ -16,8 +16,8 @@ function FirstInfo(): JSX.Element {
 
   return (
     <section id="first">
-      <Row id="first-container" gutter={[16, 16]}>
-        <Col span={12} id="first-col">
+      <Row id="first-container" gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+        <Col xs={24} sm={24} md={12} id="first-col">
           <div className="first-content-container">
             <h1>Monitoramento Online e Gestão de Ativos em um só lugar?</h1>
 
@@ -44,7 +44,7 @@ function FirstInfo(): JSX.Element {
           </div>
         </Col>
 
-        <Col span={12} id="overview-img">
+        <Col xs={24} sm={24} md={12} id="overview-img">
           <img src={overview} alt="Overview" />
         </Col>
       </Row>

@@ -131,3 +131,24 @@
   top: 4vh;
   right: 4vw;
 }
+
+/* media queries */
+@media (min-width: 576px) and (max-width: 767px) {
+  .fourth {
+    height: 120vh;
+  }
+
+  .fourth h1:nth-of-type(1) {
+    font-size: 4vw;
+    margin-bottom: 6vh;
+  }
+
+  #thumbnail-col:nth-of-type(4) {
+    height: 80%;
+    margin-bottom: 2vh;
+  }
+
+  #thumbnail-col p {
+    font-size: 2.5vw;
+  }
+}

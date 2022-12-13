@@ -31,7 +31,20 @@ function SecondInfo(): JSX.Element {
         className="mySwiper"
         grabCursor={true}
         loop={true}
-        // breakpoints={}
+        breakpoints={{
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+            grabCursor: true,
+            loop: true,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+            grabCursor: true,
+            loop: true,
+          },
+        }}
       >
         <SwiperSlide className="teste">
           <Preditiva />

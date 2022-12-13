@@ -25,7 +25,7 @@ function FourthInfo(): JSX.Element {
       <h1>Feito para indústrias de todos os setores</h1>
       <div>
         <Row gutter={[16, 16]} id="fourth-items-container">
-          <Col span={6} id="items-col">
+          <Col xs={8} sm={8} md={6} id="items-col">
             <div id="types-col">
               <ForkKnife size={28} color="rgb(208,225,247)" />
               <h2>Alimentícia e Bebidas</h2>
@@ -40,7 +40,7 @@ function FourthInfo(): JSX.Element {
             </div>
           </Col>
 
-          <Col span={6} id="items-col">
+          <Col xs={8} sm={8} md={6} id="items-col">
             <div id="types-col">
               <Car size={28} color="rgb(208,225,247)" />
               <h2>Automobilística</h2>
@@ -55,7 +55,7 @@ function FourthInfo(): JSX.Element {
             </div>
           </Col>
 
-          <Col span={6} id="items-col">
+          <Col xs={8} sm={8} md={6} id="items-col">
             <div id="types-col">
               <ShoppingCart size={28} color="rgb(208,225,247)" />
               <h2>Bens de Consumo</h2>
@@ -70,7 +70,13 @@ function FourthInfo(): JSX.Element {
             </div>
           </Col>
 
-          <Col span={6} id="thumbnail-col" style={{ padding: "1.5vh 1.5vw" }}>
+          <Col
+            xs={24}
+            sm={24}
+            md={6}
+            id="thumbnail-col"
+            style={{ padding: "1.5vh 1.5vw" }}
+          >
             <picture className="thumbnail-container">
               <img src={thumbnail} alt="Thumbnail do video" />
               <Button

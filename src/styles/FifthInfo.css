@@ -45,8 +45,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 2vh;
+  height: 90%;
 }
 
 #capterra-info p {
@@ -133,4 +134,46 @@
 .client-info img {
   width: 5.5vw;
   height: 5.5vw;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .fifth h1:nth-of-type(1) {
+    font-size: 4vw;
+  }
+
+  #capterra-info {
+    display: none;
+  }
+
+  .opinion p {
+    font-size: 1.8vw;
+  }
+
+  .client-info {
+    height: 11vh;
+  }
+
+  .client-info img {
+    width: 7.5vw;
+    height: 6.5vw;
+  }
+
+  .client-info h3 {
+    font-size: 1.8vw;
+  }
+
+  .client-info p:nth-of-type(1) {
+    font-size: 1.5vw;
+  }
+
+  .client-info p:nth-of-type(2) {
+    font-size: 1.4vw;
+  }
+
+}
+
+@media (min-width: 993px) and (max-width: 1280px) {
+  #client-opinion {
+    height: 100%;
+  }
 }

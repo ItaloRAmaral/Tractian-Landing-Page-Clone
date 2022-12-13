@@ -199,3 +199,27 @@ li {
   background-color: rgba(0,0,0,0.5);
   z-index: 1;
 }
+
+/* Media Queries */
+@media (min-width: 576px) and (max-width: 767px) {
+  #nav-container {
+    display: none;
+  }
+
+  #nav-client {
+    display: none;
+  }
+
+  #logo-img { 
+    height: 3vw;
+    width: 22.7vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {}
+
+@media (min-width: 993px) and (max-width: 1280px) {
+  #nav-container {
+   font-size: 1.5vw;
+  }
+}
