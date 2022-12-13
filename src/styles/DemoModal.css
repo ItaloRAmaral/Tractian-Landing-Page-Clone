@@ -63,12 +63,18 @@
 }
 
 
-.x-btn {
+#x-btn {
   position: absolute;
-  top: 1vh;
-  right: 1vw;
+  top: 2vh;
+  right: 2vw;
   z-index: 999;
   cursor: pointer;
+  padding: 0vh 0vw;
+}
+
+#x-btn:hover {
+  transform: scale(1.1);
+  background: none;
 }
 
 .card-item {

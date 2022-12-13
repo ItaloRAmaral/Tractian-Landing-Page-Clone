@@ -30,6 +30,7 @@ function FirstInfo(): JSX.Element {
               passado com o melhor sistema preditivo do mercado.
             </h3>
             <Button
+              name="demoModal"
               type="primary"
               htmlType="button"
               onClick={showModal}

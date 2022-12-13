@@ -1,0 +1,66 @@
+#footer-container {
+  background: linear-gradient(to bottom right, #1e3a8a, #2563eb);
+  height: 30vh;
+}
+
+.footer-logos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logos-container img:nth-of-type(1) {
+  width: 20%;
+}
+
+.social-midia-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background: rgb(51,143,196);
+}
+
+.reconhecimentos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.reconhecimentos-container h1 {
+  text-transform: uppercase;
+  color: rgb(124,231,242);
+  font-size: 1.5vw;
+  margin-bottom: 3vh;
+}
+
+.reconhecimentos-logos {
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 2vw;
+}
+
+.reconhecimentos-logos img {
+  width: 5vw;
+}
+
+.reconhecimentos-logos img:nth-of-type(2) {
+  width: 6vw;
+  height: 7vh;
+}
+
+.reconhecimentos-logos img:nth-of-type(3) {
+  width: 6vw;
+  height: 6vh;
+}
+
+.reconhecimentos-logos img:nth-of-type(5) {
+  width: 9vw;
+  height: 4vh;
+}

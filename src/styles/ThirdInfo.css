@@ -1,6 +1,6 @@
 .third {
-  height: 80vh;
-  padding: 8.5vh 4vw;
+  height: 75vh;
+  padding: 7.5vh 4vw 0vh;
   text-align: center;
   background: rgb(239,246,255);
 }
@@ -54,6 +54,7 @@
 
 .how-works-card p {
   width: 40%;
+  font-size: 1.5vw;
 }
 
 #how-works-btn {

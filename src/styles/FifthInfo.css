@@ -1,0 +1,136 @@
+.fifth-background {
+  padding: 2vh 2vw;
+  background: #ffffff;
+  height: 85vh;
+}
+
+.fifth {
+  background: linear-gradient(to right, #1d4ed8, #1e3a8a);
+  height: 80vh;
+  padding: 9vh 4vw 1vh;
+  border-radius: 1vw;
+} 
+
+.fifth h1:nth-child(1) {
+  font-size: 3vw;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+
+#client-opinion-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+#client-opinion-img {
+  width: 16vw;
+  height: 14vw;
+}
+
+#demo-btn-fifth {
+  width: 100%;
+  background: linear-gradient(to top right, #16a34a, #22c55e);
+  cursor: pointer;
+}
+
+#demo-btn-fifth:hover {
+  background: linear-gradient(to right, #16a34a, #22c55e);
+}
+
+#capterra-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+
+#capterra-info p {
+  font-size: 2vw;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+#opinions-carrousel {
+  width: 70%;
+}
+
+#client-opinion {
+  height: 90%;
+  padding: 3vh 2vw 0.5vh;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 5px solid rgb(33,211,238);
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+}
+
+.opinions-swiper {
+  height: 50vh;
+}
+
+.opinion {
+  display: flex;
+  flex-direction: column;
+}
+
+.opinion p {
+  font-size: 1.4vw;
+  font-weight: 300;
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55/var(--tw-text-opacity));
+}
+
+.opinion img:nth-of-type(1) {
+  width: 3.5vw;
+  height: 3.5vw;
+  margin-bottom: 2vh;
+}
+
+.opinion img:nth-of-type(2) {
+  width: 7vw;
+  height: 1.5vw;
+}
+
+.client-info {
+  padding: 1vh 0vw;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  align-items: center;
+}
+
+
+.client-info h3 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  margin: 0;
+}
+
+.client-info p:nth-of-type(1) {
+  font-size: 1.2vw;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55/var(--tw-text-opacity));
+  margin: 0;
+}
+
+.client-info p:nth-of-type(2) {
+  font-size: 1.2vw;
+  font-weight: 500;
+  --tw-text-opacity: 0.6;
+  color: rgb(31 41 55/var(--tw-text-opacity));
+  margin: 0;
+}
+
+.client-info img {
+  width: 5.5vw;
+  height: 5.5vw;
+}

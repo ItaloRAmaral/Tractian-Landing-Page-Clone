@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import React from "react";
-import { Col, Row } from "antd";
+import { Button, Col, Row } from "antd";
 import { X } from "phosphor-react";
 import "../styles/DemoModal.css";
 import { useAppContext } from "../context/hook";
@@ -13,7 +13,15 @@ function DemoModal(): JSX.Element {
       <div className="demo-background" />
       <div className="demo-content-container">
         <Row>
-          <X size={16} className="x-btn" onClick={showModal} />
+          <Button
+            type="text"
+            htmlType="button"
+            name="demoModal"
+            id="x-btn"
+            onClick={showModal}
+          >
+            <X size={16} />
+          </Button>
           <Col span={24}>
             <div className="demo-info-content">
               <h1>Agende uma demonstração!</h1>

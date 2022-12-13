@@ -1,8 +1,8 @@
-import { NavBar } from "../interfaces/interfaces";
+import { Modal, NavBar } from "../interfaces/interfaces";
 
 export interface IAppContext {
   current: NavBar;
-  isModalOpen: boolean;
+  isModalOpen: Modal;
   handleNavBar: (e: React.MouseEvent<HTMLElement>) => void;
-  showModal: () => void;
+  showModal: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }

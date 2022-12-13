@@ -65,6 +65,7 @@ function MyHeader(): JSX.Element {
             Área do Cliente
           </a>
           <Button
+            name="demoModal"
             type="primary"
             htmlType="button"
             onClick={showModal}
@@ -78,7 +79,7 @@ function MyHeader(): JSX.Element {
       {(current.industria as boolean) && <IndustriasItems />}
       {(current.sobre as boolean) && <SobreItems />}
       {(current.materiais as boolean) && <MateriaisItems />}
-      {(isModalOpen as boolean) && <DemoModal />}
+      {(isModalOpen.demoModal as boolean) && <DemoModal />}
     </>
   );
 }

@@ -4,3 +4,8 @@ export interface NavBar {
   sobre: boolean;
   materiais: boolean;
 }
+
+export interface Modal {
+  demoModal: boolean;
+  videoModal: boolean;
+}
