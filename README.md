@@ -1,46 +1,114 @@
-# Getting Started with Create React App
+# Tractian Landing Page Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📃 Sobre - About
+<details>
+  <summary > :brazil: Portuguese </summary>
+  <p>
+    Desenvolver uma landing page com o mesmo layout do site da Tractian, utilizando ReactJS.
+  </p>
+</details>
 
-## Available Scripts
+<details>
+  <summary > :us: English </summary>
+  <p>
+    Develop a landing page with the same layout as the Tractian website, using ReactJS.
+  </p>
+</details>
 
-In the project directory, you can run:
+## 🛠️ Ferramentas - Tools
+  - React
+  - React Router Dom
+  - Context Api
+  - AntDesign React
+  - Swipper
+  - Slick Carousel
+  - Phosphor React Icons
+  - CSS
 
-### `npm start`
+##  📝 Melhorias - Improvements
+<details>
+  <summary > :brazil: Portuguese </summary>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - [ ] Responsividade
+  - [ ] Testes
+  - [ ] Melhorar o código
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  ps: não foi feito a responsividade em todos os _[breaking points](https://devfacts.com/media-queries-breakpoints-2022/)_. Por enquanto foi realizado apenas nos seguintes breaking points: 
+  - 576px - 767px
+  - 768px - 992px
+  - 993px - 1280px
+</details>
 
-### `npm test`
+<details>
+  <summary > :us: English </summary>
+  
+  - [ ] Responsiveness 
+  - [ ] Tests
+  - [ ] Improve the code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ps: responsiveness was not done in all _[breaking points](https://devfacts.com/media-queries-breakpoints-2022/)_. So far it has only been done in the following breaking points:
+  - 576px - 767px
+  - 768px - 992px
+  - 993px - 1280px
+</details>
 
-### `npm run build`
+## ⚙️ Como executar - How to run
+<details>
+  <summary > :brazil: Portuguese </summary>
+  <p>
+    Para executar o projeto, você precisará ter instalado em sua máquina as seguintes ferramentas: Git, NodeJS (v16+). Além disto é bom ter um editor para trabalhar com o código como VSCode.
+  </p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  1. Faça um clone deste repositório:
+  ```bash
+  git@github.com:ItaloRAmaral/testetecnico.git
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  2. Entre no diretório do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  3. Instale as dependências
+  ```bash
+  npm install
+  ```
+ 
+ 4. Execute a aplicação em modo de desenvolvimento
+  ```bash
+  npm start
+  ```
 
-### `npm run eject`
+  5. O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+  </p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+</details>
 
-## Learn More
+<details>
+  <summary > :us: English </summary>
+  <p>
+    To run the project, you will need to have installed on your machine the following tools: Git, NodeJS (v16+). In addition, it is good to have an editor to work with the code like VSCode.
+  </p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  1. Clone this repository:
+  ```bash
+    git@github.com:ItaloRAmaral/testetecnico.git
+  ```
+  2. Enter the project directory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  3. Install the dependencies
+  ```bash
+    npm install
+  ```
+  4. Run the application in development mode
+  ```bash
+    npm start
+  ```
+  5. The server will start on port: 3000 - access <http://localhost:3000>
+
+</details>
+
+
+## 📱 Como funciona - How it works
+
+  <img src="./assets/Tractian_Landing_page.gif" />
